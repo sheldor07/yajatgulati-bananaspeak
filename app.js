@@ -4,7 +4,7 @@ var txtInput=document.querySelector(".text-area");
 
 var outputDiv=document.querySelector(".output-div");
 
-var serverURL="https://api.funtranslations.com/translate/shakespeare.json";
+var serverURL="https://api.funtranslations.com/translate/minion.json";
 function getserverURL(text)
 {
     return serverURL+"?"+"text="+text;
