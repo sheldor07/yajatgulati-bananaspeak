@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,600&family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-colour:#EAB308;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+.header{
+   
+    padding:5rem;
+    font-size:xx-large;
+    text-align: center;
+    font-weight:bold;
+    background-color: var(--primary-colour);
+}
+
+
+.text-area{
+    display:block;
+    margin:auto;
+    width:500px;
+    height:100px;
+    margin-top:10rem;
+}
+::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:large;
+}
+.btn{
+    background-color:var(--primary-colour);
+    display:block;
+    margin:auto;
+    margin-top:5rem;
+    padding:1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.output-heading{
+    text-align:center;
+}
+.output-div{
+    display:block;
+    border: 1px solid black;
+    width:500px;
+    height:100px;
+    margin:auto;
+}
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-colour);
+    text-align: center;
+}
