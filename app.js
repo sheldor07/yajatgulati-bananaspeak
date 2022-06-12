@@ -9,10 +9,12 @@ function getserverURL(text)
 {
     return serverURL+"?"+"text="+text;
 }
-
+function errorHandler(error){
+    alert("An error occured "+error);
+}
 function clickEventHandler(){
 
-    fetch(getserverURL(txtInput.value)).then(response => response.json()).then(json => outputDiv.innerText=json.contents.translated);
+    fetch(getserverURL(txtInput.value)).then(response => response.json()).then(json => outputDiv.innerText=json.contents.translated).catch(errorHandler)
 }
 
 btnTranslate.addEventListener("click", clickEventHandler);
